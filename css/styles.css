@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+}
+
+:root{
+    --color-green:#38AF90;
+    --color-white:#FFFFFF;
+    --color-background:#E5E5E5;
+    --color-light-grey:#F0F0F0;
+    --color-dark-grey:#797979;
+    --color-pink:#DD7E92;
+    --color-black:#383838;
+    --color-placeholder:#C4C4C4;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+
+body{
+    background-color: var(--color-white);
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    background-color: var(--color-green);
+    box-shadow: 0px 1px 4px var(--color-dark-grey);
+}
+nav{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+.header-ul-img img{
+    margin-right: 10px;
+
+}
+nav h1{
+    font-size: 18px;
+    color: var(--color-white);
+    /*border: 1px solid yellow; */  
+}
+.section-news{
+    /*border: 1px solid green;*/
+    padding: 40px 10px;
+}
+.section-news h2{
+    font-size: 1.5rem;
+    color: var(--color-dark-grey);
+    text-align: center;
+    margin-bottom: 8px;
+}
+.section-news-title-main{
+    background-color: var(--color-white);
+    border-radius: 8px;
+    /*border: 1px solid orange;*/
+}
+.section-news-title-sec{
+    background-color: var(--color-light-grey);
+    /*border: 1px solid blue;*/
+    padding: 16px 12px 12px 12px;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    box-shadow: 0px 1px 1px var(--color-placeholder)
+}
+.section-news-title-sec h3{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-green);
+}
+hr{
+    border: var(--color-green) 1px solid;
+}
+.section-news-title-sec h4{
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-dark-grey);
+}
+.section-news-title-sec h5{
+    font-size: 0.625rem;
+    font-weight: 400;
+    margin-top: 7px;
+    margin-bottom: 12px;
+    color: var(--color-green);
+}
+.section-news-title-sec p{
+    font-size: 0.625rem;
+    font-weight: 400;
+    color: var(--color-dark-grey);
+
+}
+.section-news-title-sec a{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--color-pink);
+}
+.section-news-btn button{
+    height: 67px;
+    background-color: var(--color-pink);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 53px 20px 56px;
+    border-radius: 8px;
+    border: 0;
+    color: var(--color-white);  
+}
+.section-news-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px; 
+}
+.section-games{
+    background-color: var(--color-light-grey);
+    padding: 40px 10px 10px 10px;
+    /*border: 1px solid red;*/
+}
+.section-games h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-green);
+    text-align: center;
+    margin-bottom: 28px;
+}
+.section-games-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    max-width: 960px;
+    margin: 0 auto;
+    /*align-items: center;*/
+    /*flex-wrap: wrap;*/
+    border-radius: 8px; 
+  
+}
+.section-games-cards-img{
+    width: 300px;
+    max-width: 960px;
+    margin: 0 auto;
+    display:flex ;
+    flex-direction: column;
+    align-items: center; 
+}
+.section-games-cards-img img{
+    border-radius: 8px 8px 0px 0px;
+}
+.section-games-cards-title{
+    width: 300px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-white);
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 28px;
+    box-shadow: 0px 4px 4px var(--color-background);
+}
+.section-games-cards-title h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-dark-grey);
+    text-align: center;
+    margin-top: 28px;
+}
+span{
+    color: var(--color-green);
+    font-size: 14px;
+    font-weight: 700;
+}
+.section-games-cards-title p{
+    color: var(--color-dark-grey);
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 13px;
+}
+.number{
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--color-green);
+}
+.section-signup{
+    background-color: var(--color-white);
+    padding: 40px 8px 40px 12px;  
+}
+.section-signup h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-dark-grey);
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+.section-signup-form{
+    background-color: var(--color-light-grey);
+    border-radius: 8px;
+    box-shadow: 0px 1px 1px var(--color-placeholder);
+    padding: 52px 12px 33px 8px;
+    width: 100%;
+    max-width: 790px;
+    margin: 0 auto;
+}
+.section-signup-form-input-name input{
+    width: 280px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid var(--color-dark-grey);
+    background-color: var(--color-white);
+    font-size: 16px;
+    color: var(--color-placeholder);
+    padding: 13px 128px 13px 22px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-signup-form-input-email input{
+    width: 280px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid var(--color-dark-grey);
+    background-color: var(--color-white);
+    font-size: 16px;
+    color: var(--color-placeholder);
+    padding: 13px 128px 13px 22px;
+    margin-bottom: 20px;
+}
+
+.section-signup-radio label{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-dark-grey);
+    margin-bottom: 8px;
+}
+.section-signup-radio-pc label{
+    font-size: 16px;
+    color: var(--color-dark-grey);
+}
+.section-signup-radio-xbox label{
+    font-size: 16px;
+    color: var(--color-dark-grey);
+}
+.section-signup-radio-ps label{
+    font-size: 16px;
+    color: var(--color-dark-grey); 
+}
+.section-signup-check{
+    margin-top: 35px;
+    margin-bottom: 47px;
+}
+.section-signup-check label{
+    font-size: 16px;
+    color: var(--color-dark-grey); 
+}
+.section-signup-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-signup-btn-enviar input{
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: var(--color-pink);
+    border: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-white);
+}
+.section-signup-btn-limpar input{
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-pink);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-pink);
+}
+.rodape{
+    background-color: var(--color-black);
+    padding: 28px 33px 30px 37px;
+    height: 302px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+.rodape-a a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    color: var(--color-white);  
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.rodape-p p{
+    font-size: 14px;
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.rodape-a-2 a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+@media(min-width: 768px){
+    html{
+        font-size: 24px;
+    }
+    .rodape{
+        flex-direction: row;
+        align-items: center;
+        height: 190px;
+    }
+    .section-signup-btn{
+        flex-direction: row;
+        justify-content: center;
+        gap: 52px;
+    }
+    .section-signup-btn-enviar input{
+        margin: 0px;
+    }
+    .section-signup-form{
+        width: 790;
+        max-width: 960;
+        margin: 0 auto;
+    }
+    
+    .section-signup-form-input-name input{
+        width: 642px;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .section-signup-form-input-email input{
+        width: 642px;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .section-signup-radio{
+        margin-left: 75px;
+    }
+    .section-signup-check{
+        margin-left: 75px;
+    }
+    .header-ul-img{
+        font-size: 14px;
+        color: var(--color-white);
+        display: flex; 
+
+    }
+    .header-ul-img ul{
+        display: flex;
+        align-items: center;
+        gap: 29px;
+        margin-right: 29px;
+    }
+    .section-games-cards{
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    } 
+   
+}
+
+@media(max-width:768px){
+    .header-ul-img ul{
+        display: none;
+    }
+}
+
